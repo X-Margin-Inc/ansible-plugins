@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: common
+    runs-on: common-01
     steps:
       - name: checkout
         uses: actions/checkout@v2
