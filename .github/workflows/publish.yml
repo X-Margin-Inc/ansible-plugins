@@ -1,5 +1,5 @@
 ---
-name: GitHub Action
+name: Publish to Ansible Galaxy
 
 on:
   - push
