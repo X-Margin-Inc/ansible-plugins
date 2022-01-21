@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: galaxy
-        uses: robertdebock/galaxy-action@1.1.0
+      - name: Build and Deploy Collection
+        uses: artis3n/ansible_galaxy_collection@v2
         with:
-          galaxy_api_key: ${{ secrets.galaxy_api_key }}
+          api_key: '${{ secrets.GALAXY_API_KEY }}' ${{ secrets.galaxy_api_key }}
