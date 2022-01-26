@@ -11,7 +11,7 @@ import base64
 DOCUMENTATION = """
     lookup: generate_from_vault
     author: Zdravko Posloncec <z.posloncec@gmail.com>
-    version_added: '1.1.2'
+    version_added: '1.1.5'
     short_description: generate config_map and/or secret variables from HashiCorp Vault
     description:
         - This filter parses the variables from Hashicorp Vault and map the values pointed to different vault key's with original values
